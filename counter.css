@@ -1,0 +1,129 @@
+body{
+  background-image: url("pexels-margerretta-548077.jpg") ;
+  background-size: cover;
+text-align: center;
+font-weight:normal;
+margin-top: 20px;
+font-family: fantasy;
+}
+h1{
+  font-variant: small-caps;
+
+}
+#button1{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: green;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+
+}
+    #button1:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#button1:active {
+  background-color: lightgreen;
+  box-shadow: 0 4px grey;
+  transform: translateY(6px);
+}
+
+#button2{
+  display: inline-block;
+  border-radius: 4px;
+  background-color: red;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+
+}
+  #button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+  #button2:active {
+  background-color: #F06161;
+  box-shadow: 0 4px #666;
+  transform: translateY(6px);
+}
+
+
+
+#save{
+  display: inline-block;
+  border-radius: 12px;
+  background-color: blue;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 24px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+
+}
+  #save:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+  #save:active {
+  background-color: #57C0F9;
+  box-shadow: 0 4px #666;
+  transform: translateY(6px);
+}
+
+
+
+
+
+#reset{
+  display: inline-block;
+  border-radius: 12px;
+  background-color: #FFE100;
+  border: none;
+  color: #581845 ;
+  text-align: center;
+  font-size: 24px;
+  padding: 10px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+
+}
+  #reset:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+  #reset:active {
+  background-color: #DCFF00;
+  box-shadow: 0 4px #666;
+  transform: translateY(6px);
+}
+#save-el{
+  background-color: lightgreen;
+  border-radius: 12px;
+  background-color: #FFE100;
+  border: none;
+  color: #581845 ;
+  text-align: center;
+  font-size: 24px;
+  padding: 10px;
+  /*width: 180px;*/
+  transition: all 0.5s;
+  /*cursor: pointer;*/
+  margin: 100px;
+
+}
